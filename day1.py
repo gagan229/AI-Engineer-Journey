@@ -1,0 +1,13 @@
+name = input("Enter your name: ")
+age = int(input("Enter your age: "))
+color = input("Enter your favorite color: ")
+food = input("Enter your favorite food: ")
+job = input("Enter your Dream job: ")
+
+print("Hello", name)
+print("You are", age, "years old")
+print("Your favorite color is", color)
+print("Next year you will be", age + 1)
+print("Your favorite food is", food)
+print("Your Dream job is", job)
+print("I am "+ name + " and my favorite food is " + food + " and my Dream job is " + job)
